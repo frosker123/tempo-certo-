@@ -1,0 +1,43 @@
+[
+    {
+        "inicio": "8:00", 
+        "fim": "9:00",
+        "disponivel": true
+    },{
+        "inicio": "9:00",
+        "fim": "10:00",
+        "disponivel": true
+    },{
+        "inicio": "10:00",
+        "fim": "11:00",
+        "disponivel": true
+    },{
+        "inicio": "11:00",
+        "fim": "12:00",
+        "disponivel": true
+    },{
+        "inicio": "12:00",
+        "fim": "13:00",
+        "disponivel": true 
+    },{
+        "inicio": "13:00",
+        "fim": "14:00",
+        "disponivel": true
+    },{
+        "inicio": "14:00",
+        "fim": "15:00",
+        "disponivel": true
+    },{
+        "inicio": "15:00",
+        "fim": "16:00",
+        "disponivel": true
+    },{
+        "inicio": "16:00",
+        "fim": "17:00",
+        "disponivel": true
+    },{
+        "inicio": "17:00",
+        "fim": "18:00",
+        "disponivel": true
+    }
+]
