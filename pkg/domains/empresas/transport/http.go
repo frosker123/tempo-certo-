@@ -45,7 +45,7 @@ func NewHTTPHandler(svc service.ServiceI) stdHTTP.Handler {
 		codeHTTP{200}.encodeResponse,
 		options...,
 	)
-	crealista := http.NewServer(
+	createlista := http.NewServer(
 		service.CreateListaHorario(svc),
 		http.NopRequestDecoder,
 		codeHTTP{200}.encodeResponse,
@@ -55,7 +55,7 @@ func NewHTTPHandler(svc service.ServiceI) stdHTTP.Handler {
 	r := chi.NewRouter()
 
 	r.Post("/agendas", upsert.ServeHTTP)
-	r.Post("/lista", crealista.ServeHTTP)
+	r.Post("/lista", createlista.ServeHTTP)
 	r.Get("/agendas/", listAgendamentos.ServeHTTP)
 	r.Get("/agendas/{cnpj}", findByCnpj.ServeHTTP)
 	r.Get("/agendas/disponibilidade", listAgendaDisponibilidade.ServeHTTP)
